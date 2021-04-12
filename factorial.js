@@ -10,6 +10,6 @@ const FactorialIterative = (n) => {
 console.log(FactorialIterative(number));
 
 const FactorialRecursive = (n) => {
-	return (n >= 1) ? (n * FactorialRecursive(n - 1)) : (1)
+	return (n > 1) ? (n * FactorialRecursive(n - 1)) : (n)
 }
 console.log(FactorialRecursive(number));
