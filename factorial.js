@@ -1,4 +1,4 @@
-let number = 4 //prompt("Please enter the number of which you want the Factorial");
+let number = 5 //prompt("Please enter the number of which you want the Factorial");
 
 const FactorialIterative = (n) => {
 	let accumulator = n;
