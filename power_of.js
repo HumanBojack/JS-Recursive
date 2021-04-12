@@ -8,6 +8,6 @@ const IterativePowerOf = (n, p) => {
 console.log(IterativePowerOf(5,3))
 
 const RecursivePowerOf = (n, p) => {
-	return (p > 0) ? (n * RecursivePowerOf(n, p - 1)) : (1);
+	return (p > 1) ? (n * RecursivePowerOf(n, p - 1)) : (n * p);
 }
 console.log(RecursivePowerOf(5,3))
